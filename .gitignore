@@ -39,6 +39,9 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# data
+data/lecturas_*.json
+
 # generated native folders
 /ios
 /android
