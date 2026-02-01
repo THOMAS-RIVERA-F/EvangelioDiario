@@ -2,6 +2,7 @@ import {
   Animated,
   FlatList,
   Image,
+  ImageBackground,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -11,6 +12,7 @@ import {
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useFocusEffect } from '@react-navigation/native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { useLocalSearchParams, useRouter } from 'expo-router';
 
 import { Text } from '@/components/Themed';
 import Colors from '@/constants/Colors';
@@ -22,6 +24,10 @@ import { useThemePreference } from '@/components/ThemeContext';
 import { getFavorites, toggleFavorite, toFavoriteMap, type FavoriteItem } from '@/lib/favorites';
 
 const lecturas = lecturasRaw as LiturgicalCalendar;
+const HERO_IMAGES = [
+  require('@/assets/photos/hombre1.png'),
+  require('@/assets/photos/hombre2.png'),
+];
 const HINRY_BIBLIA = require('@/assets/mascot/hinry_con_biblia.png');
 
 function formatLocalISO(date: Date) {
@@ -32,6 +38,8 @@ function formatLocalISO(date: Date) {
 }
 
 export default function ReadingScreen() {
+  const router = useRouter();
+  const params = useLocalSearchParams<{ index?: string }>();
   const colorScheme = useColorScheme() ?? 'light';
   const { preference, setPreference } = useThemePreference();
   const todayKey = formatLocalISO(new Date());
@@ -41,9 +49,12 @@ export default function ReadingScreen() {
     [today]
   );
 
+  const maxIndex = Math.max(0, readings.length - 1);
+  const initialIndex = Math.min(maxIndex, Math.max(0, Number(params.index ?? 0) || 0));
+  const listRef = useRef<FlatList<Reading>>(null);
   const [fontSize, setFontSize] = useState(18);
   const lineHeight = useMemo(() => Math.round(fontSize * 1.72), [fontSize]);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(initialIndex);
   const [selectedVerseId, setSelectedVerseId] = useState<string | null>(null);
   const { width } = useWindowDimensions();
   const scrollX = useRef(new Animated.Value(0)).current;
@@ -51,7 +62,7 @@ export default function ReadingScreen() {
   const themeAccent =
     colorScheme === 'dark' ? 'rgba(226, 200, 160, 0.2)' : 'rgba(154, 108, 58, 0.16)';
   const verseHighlight =
-    colorScheme === 'dark' ? 'rgba(255, 255, 255, 0.04)' : 'rgba(0, 0, 0, 0.03)';
+    colorScheme === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.03)';
   const [favoriteMap, setFavoriteMap] = useState<Record<string, boolean>>({});
 
   const loadFavorites = useCallback(() => {
@@ -73,6 +84,14 @@ export default function ReadingScreen() {
       useNativeDriver: true,
     }).start();
   }, [enter]);
+
+  useEffect(() => {
+    if (!listRef.current || initialIndex === 0) return;
+    const handle = setTimeout(() => {
+      listRef.current?.scrollToIndex({ index: initialIndex, animated: false });
+    }, 50);
+    return () => clearTimeout(handle);
+  }, [initialIndex]);
 
   const handleToggle = useCallback(async (item: FavoriteItem) => {
     const next = await toggleFavorite(item);
@@ -202,6 +221,7 @@ export default function ReadingScreen() {
         </View>
 
         <Animated.FlatList
+          ref={listRef}
           horizontal
           pagingEnabled
           showsHorizontalScrollIndicator={false}
@@ -210,6 +230,11 @@ export default function ReadingScreen() {
           contentContainerStyle={styles.horizontalList}
           snapToInterval={width}
           decelerationRate="fast"
+          getItemLayout={(_, index) => ({
+            length: width,
+            offset: width * index,
+            index,
+          })}
           onMomentumScrollEnd={(event) => {
             const nextIndex = Math.round(event.nativeEvent.contentOffset.x / width);
             setActiveIndex(nextIndex);
@@ -243,37 +268,50 @@ export default function ReadingScreen() {
               : Colors[colorScheme].muted;
             const scale = scrollX.interpolate({
               inputRange,
-              outputRange: [0.98, 1, 0.98],
+              outputRange: [0.985, 1, 0.985],
               extrapolate: 'clamp',
             });
             const opacity = scrollX.interpolate({
               inputRange,
-              outputRange: [0.65, 1, 0.65],
+              outputRange: [0.7, 1, 0.7],
               extrapolate: 'clamp',
             });
+            const heroImage = HERO_IMAGES[index % HERO_IMAGES.length];
 
             return (
               <Animated.View style={{ width, opacity, transform: [{ scale }] }}>
                 <ScrollView
                   contentContainerStyle={styles.readingContent}
                   showsVerticalScrollIndicator={false}>
-                  <View style={styles.headerRow}>
-                    <View style={styles.header}>
-                      <Text style={[styles.type, { color: Colors[colorScheme].muted }]}>
-                        {item.type}
-                      </Text>
-                      <Text style={styles.reference}>{item.reference}</Text>
+                  <ImageBackground
+                    source={heroImage}
+                    style={styles.hero}
+                    imageStyle={styles.heroImage}>
+                    <View style={styles.heroOverlay} />
+                    <View style={styles.heroTop}>
+                      <Pressable
+                        onPress={() => router.back()}
+                        style={({ pressed }) => [
+                          styles.backButton,
+                          { opacity: pressed ? 0.7 : 1 },
+                        ]}>
+                        <FontAwesome name="arrow-left" size={14} color="#FFFFFF" />
+                      </Pressable>
+                      <Pressable
+                        onPress={() => handleToggle(readingFavorite)}
+                        style={({ pressed }) => [{ opacity: pressed ? 0.7 : 1 }]}>
+                        <FontAwesome
+                          name={isReadingFavorited ? 'bookmark' : 'bookmark-o'}
+                          size={18}
+                          color="#FFFFFF"
+                        />
+                      </Pressable>
                     </View>
-                    <Pressable
-                      onPress={() => handleToggle(readingFavorite)}
-                      style={({ pressed }) => [{ opacity: pressed ? 0.6 : 1 }]}>
-                      <FontAwesome
-                        name={isReadingFavorited ? 'bookmark' : 'bookmark-o'}
-                        size={18}
-                        color={favoriteIconColor}
-                      />
-                    </Pressable>
-                  </View>
+                    <View style={styles.heroContent}>
+                      <Text style={styles.heroTag}>{item.type.toUpperCase()}</Text>
+                      <Text style={styles.heroTitle}>{item.reference}</Text>
+                    </View>
+                  </ImageBackground>
 
                   <View
                     style={[styles.readingBox, { backgroundColor: Colors[colorScheme].surface }]}>
@@ -353,29 +391,9 @@ const styles = StyleSheet.create({
   stage: {
     flex: 1,
   },
-  header: {
-    gap: Spacing.xs,
-  },
-  headerRow: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    justifyContent: 'space-between',
-    gap: Spacing.md,
-  },
-  type: {
-    fontFamily: 'SourceSans3_600SemiBold',
-    fontSize: TypeScale.caption,
-    textTransform: 'uppercase',
-    letterSpacing: 1.4,
-  },
-  reference: {
-    fontFamily: 'Lora_600SemiBold',
-    fontSize: TypeScale.title,
-    lineHeight: LineHeight.title,
-  },
   controls: {
     paddingHorizontal: Spacing.lg,
-    paddingTop: Spacing.xl,
+    paddingTop: Spacing.lg,
     paddingBottom: Spacing.md,
     gap: Spacing.sm,
   },
@@ -395,16 +413,6 @@ const styles = StyleSheet.create({
   themeText: {
     fontFamily: 'SourceSans3_600SemiBold',
     fontSize: TypeScale.caption,
-  },
-  dots: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-    marginTop: 4,
-  },
-  dot: {
-    height: 6,
-    borderRadius: 999,
   },
   controlHeader: {
     flexDirection: 'row',
@@ -439,13 +447,66 @@ const styles = StyleSheet.create({
     fontFamily: 'SourceSans3_400Regular',
     fontSize: TypeScale.caption,
   },
+  dots: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    marginTop: 4,
+  },
+  dot: {
+    height: 6,
+    borderRadius: 999,
+  },
   horizontalList: {
-    paddingBottom: Spacing.xl,
+    paddingBottom: Spacing.lg,
   },
   readingContent: {
     paddingHorizontal: Spacing.lg,
     paddingBottom: Spacing.xxl,
     gap: Spacing.lg,
+  },
+  hero: {
+    height: 240,
+    borderRadius: Radius.xl,
+    overflow: 'hidden',
+    justifyContent: 'space-between',
+  },
+  heroImage: {
+    borderRadius: Radius.xl,
+  },
+  heroOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(10, 9, 8, 0.28)',
+  },
+  heroTop: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: Spacing.md,
+  },
+  backButton: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(0,0,0,0.35)',
+  },
+  heroContent: {
+    padding: Spacing.lg,
+    gap: Spacing.xs,
+  },
+  heroTag: {
+    fontFamily: 'SourceSans3_600SemiBold',
+    fontSize: TypeScale.caption,
+    letterSpacing: 1.4,
+    color: '#FFFFFF',
+  },
+  heroTitle: {
+    fontFamily: 'Lora_600SemiBold',
+    fontSize: TypeScale.title,
+    lineHeight: LineHeight.title,
+    color: '#FFFFFF',
   },
   readingBox: {
     borderRadius: Radius.xl,
@@ -479,8 +540,8 @@ const styles = StyleSheet.create({
     paddingTop: Spacing.md,
   },
   mascot: {
-    width: 88,
-    height: 88,
-    opacity: 0.85,
+    width: 120,
+    height: 120,
+    opacity: 0.92,
   },
 });

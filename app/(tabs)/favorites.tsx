@@ -116,9 +116,9 @@ const styles = StyleSheet.create({
     gap: Spacing.sm,
   },
   emptyMascot: {
-    width: 110,
-    height: 110,
-    opacity: 0.85,
+    width: 130,
+    height: 130,
+    opacity: 0.9,
   },
   emptyText: {
     fontFamily: 'SourceSans3_400Regular',
