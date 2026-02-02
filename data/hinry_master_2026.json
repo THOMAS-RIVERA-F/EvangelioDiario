@@ -1,0 +1,6664 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-02-02T07:43:18.789Z",
+  "source": {
+    "path": "data/lecturas_2026.json",
+    "year": 2026,
+    "total_days": 332
+  },
+  "days": [
+    {
+      "date": "2026-01-01",
+      "title": "Octava de la Natividad: Solemnidad de la Santísima Virgen María, Madre de Dios",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "title": "Santos Basilio Magno y Gregorio Nacianceno, Obispos y Doctores (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-03",
+      "title": "Santísimo Nombre de Jesús (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "title": "Epifanía del Señor (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "title": "San Juan Neumann, Obispo (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "title": "San Andrés Bessette, Religioso (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "title": "Feria",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "title": "Feria",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "title": "Feria",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-10",
+      "title": "Feria",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "title": "Bautismo del Señor (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "title": "San Bernardo de Corleone, Religioso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "title": "San Berardo, OFM, Presbítero y Compañeros, Protomártires (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-17",
+      "title": "San Antonio, Abad (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "title": "II Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "title": "Día de Martin Luther King",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "title": "Santa Inés, Virgen, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "title": "Día de Oración Por la Protección Legal de los Niños No Nacidos",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "title": "San Francisco de Sales, Obispo, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "title": "III Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "title": "San Timoteo y San Tito, Obispos (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "title": "Santo Tomás de Aquino, Presbítero, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "title": "San Jacinto Marescotti, Virgen (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "title": "San Juan Bosco, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "title": "IV Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+  "contexto": [
+    "Hoy es una fiesta y la comunidad se detiene un poco más, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para caminar juntos.",
+    "Celebramos este día recordando una escena sencilla, casi familiar, donde lo importante pasa en silencio.",
+    "Muchos llegamos hoy con cansancio o preguntas, y este momento nos regala calma."
+  ],
+  "explicacion": [
+    "Todas las lecturas se cruzan en lo mismo: Dios se deja encontrar en lo humano, en brazos abiertos, en la espera paciente.",
+    "Escuchamos más lecturas hoy porque necesitamos volver a lo esencial, a esa luz que no grita pero permanece.",
+    "Simeón y Ana, junto con todo lo demás que oímos, nos muestran que la esperanza no corre, sabe esperar."
+  ],
+  "mensaje_central": "Cuando sostenemos la vida con confianza, incluso en lo pequeño, la paz empieza a acomodarse por dentro.",
+  "agradecimiento": [
+    "las personas que esperan con nosotros",
+    "los días simples que sostienen la fe",
+    "la luz que aparece sin hacer ruido"
+  ],
+  "cierre": "Sigamos así el día, despacio, como quien no está solo."
+}
+    },
+    {
+      "date": "2026-02-02",
+      "title": "Presentación del Señor (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+  "contexto": [
+    "Hoy es una memoria libre y aun así la comunidad se toma el tiempo, por eso escuchamos seis lecturas y el salmo, porque es un día grande para caminar juntos.",
+    "Entre semana, con trabajo y cansancio encima, llegamos con historias mezcladas de dolor y esperanza.",
+    "Lo que escuchamos hoy acompaña justo esos momentos donde la vida aprieta."
+  ],
+  "explicacion": [
+    "Las lecturas hablan de pérdidas que duelen, de súplicas que nacen del fondo y de una fe que se abre paso en medio del caos.",
+    "Escuchamos más lecturas hoy porque necesitamos recordar que, aun cuando todo parece roto, la esperanza no se apaga.",
+    "Entre lágrimas, toques tímidos y manos que levantan, aparece una vida que vuelve a ponerse de pie."
+  ],
+  "mensaje_central": "Incluso cuando sentimos que ya no hay salida, la vida todavía puede sorprendernos con algo nuevo.",
+  "agradecimiento": [
+    "la gente que no se va cuando duele",
+    "la fuerza para seguir un día más",
+    "las pequeñas señales de alivio"
+  ],
+  "cierre": "Sigamos caminando hoy así, acompañados, sin cargarlo todo solos."
+}
+    },
+    {
+      "date": "2026-02-03",
+      "title": "San Blas, Obispo y Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+  "contexto": [
+    "Hoy es una memoria libre y, aun siendo entre semana, la comunidad escucha seis lecturas y el salmo, porque es un día grande para sostenernos juntos.",
+    "Llegamos con trabajo encima, cansancio acumulado y algunas preocupaciones que no se van fácil.",
+    "Lo que se lee hoy se acerca justo a esos días donde la vida se mezcla entre dolor y esperanza."
+  ],
+  "explicacion": [
+    "Las lecturas se tocan en una misma experiencia: hay pérdidas que quiebran, súplicas que nacen del fondo y una confianza que se abre paso despacio.",
+    "Escuchamos más lecturas hoy porque necesitamos recordar que la esperanza no desaparece cuando todo se complica.",
+    "Entre llanto, espera y gestos pequeños, la vida vuelve a levantarse."
+  ],
+  "mensaje_central": "Aun cuando todo parece perdido, la esperanza sigue respirando con nosotros.",
+  "agradecimiento": [
+    "quienes se quedan cuando duele",
+    "la paciencia que se va formando",
+    "los gestos simples que sostienen"
+  ],
+  "cierre": "Sigamos el día así, acompañados, sin tener que ser fuertes todo el tiempo."
+}
+
+    },
+    {
+      "date": "2026-02-04",
+      "title": "San José de Leonessa, Capuchino, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "title": "Santa Ágata, Virgen, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "title": "San Pedro Bautista, OFM, Pablo Miki y Compañeros, Mártires (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "title": "Santa Colette de Corbie, Virgen (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-08",
+      "title": "V Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "title": "Santa Escolástica, Virgen (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "title": "Nuestra Señora de Lourdes (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "title": "San Cirilo, Monje y San Metodio, Obispo (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-15",
+      "title": "VI Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-16",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-18",
+      "title": "Miércoles de Ceniza",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "title": "Jueves después del Miércoles de Ceniza",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "title": "Santos Francisco y Jacinta Marto (Conmemoración)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "title": "Sábado después del Miércoles de Ceniza",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-22",
+      "title": "I Domingo de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-23",
+      "title": "San Policarpo, Obispo, Mártir (Memoria)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-02-28",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-01",
+      "title": "II Domingo de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-02",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "title": "Santa Catalina Drexel, Virgen (Memoria Libre)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-07",
+      "title": "Santa Perpetua y Santa Felícitas, Mártires (Memoria)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "title": "III Domingo de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-14",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-15",
+      "title": "IV Domingo de Cuaresma",
+      "liturgical_type": "Rosado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "title": "San Patricio, Obispo (Memoria)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "title": "San José, Esposo de la Santísima Virgen María (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-21",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-22",
+      "title": "V Domingo de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "title": "Anunciación del Señor (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "title": "Madre Angélica - Aniversario de su Muerte",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-28",
+      "title": "Feria de Cuaresma",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-29",
+      "title": "Domingo de Ramos de la Pasión del Señor",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Lunes de Semana Santa",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "title": "Martes de Semana Santa",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "title": "Miércoles de Semana Santa",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "title": "Jueves Santo – Misa Vespertina de la Cena del Señor",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "title": "Viernes de la Pasión del Señor (Viernes Santo)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "title": "Vigilia Pascual en la Noche Santa",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-05",
+      "title": "Domingo de Pascua de la Resurrección del Señor (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-06",
+      "title": "Lunes de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "title": "Martes de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "title": "Miércoles de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "title": "Jueves de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "title": "Viernes de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "title": "Sábado de la Octava de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-12",
+      "title": "II Domingo de Pascua o de la Divina Misericordia",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-18",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-19",
+      "title": "III Domingo de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "title": "San Conrado de Parzham, Capuchino, Religioso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "title": "San Fidelis de Sigmaringen, Capuchino, Presbítero, Mártir (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-25",
+      "title": "San Marcos, Evangelista (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "title": "IV Domingo de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "title": "San Luis Grignion de Montfort, Presbítero (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "title": "Santa Catalina de Siena, Virgen, Doctora de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-01",
+      "title": "San José Obrero (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "title": "San Athanasius, Obispo, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "title": "V Domingo de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-09",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "title": "VI Domingo de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "title": "San Ignacio de Laconi, Religioso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "title": "San Leopoldo Myic, Capuchino, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "title": "Nuestra Señora de Fatima (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "title": "San Matías, Apóstol (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-16",
+      "title": "Santa Margarita de Cortona, III Order (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-17",
+      "title": "Ascensión del Señor (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "title": "San Félix Porri de Cantalice, Capuchino, Religioso (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "title": "San Crispín de Viterbo, Religioso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "title": "San Bernardino de Siena, OFM Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "title": "Santa Rita de Cascia, Religiosa (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "title": "Feria de Pascua",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "title": "Domingo de Pentecostés (Solemnidad)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "title": "Santísima Virgen María, Madre de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "title": "San Felipe Neri, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "title": "San Pablo VI, Papa (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "title": "Santa Juana de Arco, Virgen, Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Santísima Trinidad (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "title": "San Justino, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "title": "San Carlos Lwanga y Compañeros, Mártires (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "title": "San Bonifacio, Obispo, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Santísimo Cuerpo y Sangre de Cristo (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "title": "San Barnabas, Apóstol (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "title": "Solemnidad del Sacratísimo Corazón de Jesús",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-13",
+      "title": "San Antonio de Padua, OFM, Presbítero, Doctor de la Iglesia (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-14",
+      "title": "XI Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-21",
+      "title": "XII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "title": "San Juan Fisher, Obispo, Mártir y Santo Tomás More, Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "title": "Natividad de San Juan Bautista (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-27",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-28",
+      "title": "XIII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "title": "San Pedro y San Pablo, Apóstoles (Solemnidad)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "title": "San Junípero Serra, OFM, Presbítero (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Santo Tomás, Apóstol (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-04",
+      "title": "Día de la Independencia de los Estados Unidos",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "title": "XIV Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Santa María Goretti, Virgen, Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "title": "Santa Verónica Giuliani, Virgen (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "title": "San Benedict, Abad (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "title": "XV Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Santa Kateri Tekakwitha, Virgen (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "title": "San Buenaventura, Obispo, Doctor de la Iglesia (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Nuestra Señora del Carmen (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "title": "Misa Votiva de la Preciosísima Sangre del Señor",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "title": "XVI Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "title": "San Lorenzo de Brindis, Presbítero, Doctor de la Iglesia (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "title": "Santa María Magdalena (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-25",
+      "title": "Santiago, Apóstol (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-26",
+      "title": "XVII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "title": "Beato Stanley Rother, Presbítero, Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "title": "Santos Marta, María y Lázaro (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "title": "Beato Solanus Casey, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "title": "San Ignacio de Loyola, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "title": "San Alfonso Ligorio, Obispo, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "title": "Nuestra Señora de los Ángeles de Porciúncula (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "title": "San Juan María Vianney, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Dedicación de la Basílica de Santa María Mayor en Roma (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Transfiguración del Señor (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "title": "Misa Votiva del Sagrado Corazón de Jesús",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "title": "Santo Padre Domingo, Presbítero, Fundador de la Orden de Predicadores (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-09",
+      "title": "XIX Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "title": "San Lorenzo, Diácono, Mártir (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Santa Clara de Asís, Virgen, Fundadora de la Segunda Orden (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "title": "San Maximiliano María Kolbe, Presbítero, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Asunción de la Santísima Virgen María (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-16",
+      "title": "XX Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "title": "San Bernardo, Abad, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "title": "San Pío X, Papa (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Santa María Virgen, Reina (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-23",
+      "title": "XXI Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "title": "San Bartholomew, Apóstol (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "title": "San Luis IX de Francia, Rey, Patrón de la Tercera Orden (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Santa Mónica (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "title": "San Augustine, Obispo, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Pasión de San Juan Bautista (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "title": "XXII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "title": "San Gregorio Magno, Papa, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Misa Votiva del Sagrado Corazón de Jesús",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Santa Teresa de Calcuta (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "title": "XXIII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "title": "Día del Trabajo",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Natividad de la Santísima Virgen María (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "title": "San Pedro Claver, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Conmemoración del 11 de Septiembre",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Santísimo Nombre de María (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "title": "XXIV Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "title": "Exaltación de la Santa Cruz (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Nuestra Señora de los Dolores (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "title": "San Cornelio, Papa, Mártir y San Cipriano, Obispo, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "title": "Sagrados Estigmas de San Francisco de Asís (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "title": "San José de Cupertino, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "title": "San Francisco María de Camporosso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "title": "XXV Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "title": "San Mateo, Apóstol, Evangelista (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "title": "San Pío de Pietrelcina, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "title": "XXVI Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "title": "San Miguel, San Gabriel, y San Rafael, Arcángeles (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "title": "San Jerónimo, Presbítero, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Santa Teresita del Niño Jesús, Virgen, Doctora de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "title": "Ángeles Guardianes (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "title": "San Francisco de Asís, Diácono, Religioso, Fundador de las Tres Órdenes (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Santa Faustina, Virgen (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "title": "Nuestra Señora del Rosario (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "title": "XXVIII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "title": "San Serafín de Montegranaro, Religioso (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Santa Teresa de Jesús, Virgen, Doctora de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Santa Margarita María Alacoque, Virgen (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "title": "San Ignacio de Antioquía, Obispo, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "title": "XXIX Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "title": "San Juan de Brébeuf, San Isaac Jogues, Presbíteros y Mártires, y Compañeros (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "title": "San Juan Pablo II, Papa (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "title": "San Juan de Capistrano, OFM, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "title": "XXX Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "title": "San Simón y San Judas Tadeo, Apóstoles (Fiesta)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Todos los Santos (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Conmemoración de Todos los Fieles Difuntos",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "title": "San Martín de Porres, Religioso (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "title": "San Carlos Borromeo, Obispo (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "title": "Conmemoración de Todos los Difuntos de la Orden Seráfica (Memoria)",
+      "liturgical_type": "morado",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "title": "Misa Votiva del Sagrado Corazón de Jesús",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "title": "XXXII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Dedicación de la Basílica de San Juan de Letrán (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "title": "San León Magno, Papa, Doctor de la Iglesia (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "title": "San Martín de Tours, Obispo (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "title": "San Josafat, Obispo, Mártir (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Santa Francisca Xavier Cabrini, Virgen (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "title": "San Nicolás Tavelic, OFM, Presbítero, y Compañeros, Mártires (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "title": "XXXIII Domingo Ordinario",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Santa Isabel de Hungría, Patrona de la Tercera Orden (Fiesta)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Dedicación de la Basílica de los Santos Pedro y Pablo (Memoria Libre)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "title": "Presentación de la Santísima Virgen María (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "title": "Nuestro Señor Jesucristo, Rey del Universo (Solemnidad)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Beato Miguel Agustin Pro, Presbítero, Mártir (Memoria Libre)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "title": "San Andrés Dung-Lac, Presbítero, Mártir y Compañeros, Mártires (Memoria)",
+      "liturgical_type": "Rojo",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Feria",
+      "liturgical_type": "Verde",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Día de Acción de Gracias",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-27",
+      "title": "San Francisco Antonio Fasani, Presbítero (Memoria)",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Sábado Memoria de la Santísima Virgen María",
+      "liturgical_type": "Blanco",
+      "hinry": {
+        "contexto": [
+          "hinry debe pensarlo",
+          "hinry debe pensarlo"
+        ],
+        "explicacion": [
+          "hinry debe pensarlo"
+        ],
+        "mensaje_central": "hinry debe pensarlo",
+        "agradecimiento": [
+          "hinry debe pensarlo"
+        ],
+        "cierre": "hinry debe pensarlo",
+        "text": "hinry debe pensarlo"
+      }
+    }
+  ]
+}
