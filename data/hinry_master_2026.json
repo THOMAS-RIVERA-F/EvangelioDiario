@@ -632,73 +632,74 @@
       "title": "IV Domingo Ordinario",
       "liturgical_type": "Verde",
       "hinry": {
-  "contexto": [
-    "Hoy es una fiesta y la comunidad se detiene un poco más, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para caminar juntos.",
-    "Celebramos este día recordando una escena sencilla, casi familiar, donde lo importante pasa en silencio.",
-    "Muchos llegamos hoy con cansancio o preguntas, y este momento nos regala calma."
-  ],
-  "explicacion": [
-    "Todas las lecturas se cruzan en lo mismo: Dios se deja encontrar en lo humano, en brazos abiertos, en la espera paciente.",
-    "Escuchamos más lecturas hoy porque necesitamos volver a lo esencial, a esa luz que no grita pero permanece.",
-    "Simeón y Ana, junto con todo lo demás que oímos, nos muestran que la esperanza no corre, sabe esperar."
-  ],
-  "mensaje_central": "Cuando sostenemos la vida con confianza, incluso en lo pequeño, la paz empieza a acomodarse por dentro.",
-  "agradecimiento": [
-    "las personas que esperan con nosotros",
-    "los días simples que sostienen la fe",
-    "la luz que aparece sin hacer ruido"
-  ],
-  "cierre": "Sigamos así el día, despacio, como quien no está solo."
-}
+        "contexto": [
+          "Hoy es domingo y la comunidad se reúne con más calma, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para compartir la fe juntos.",
+          "Este IV Domingo Ordinario nos encuentra tal vez cansados de la semana, pero con ganas de escuchar algo que nos sostenga.",
+          "Las lecturas de hoy acompañan ese momento donde necesitamos volver a lo simple y a lo verdadero."
+        ],
+        "explicacion": [
+          "En todas las lecturas aparece la misma idea: Dios se queda cerca de lo pequeño, lo humilde y lo que el mundo no aplaude.",
+          "Escuchamos más lecturas hoy porque como comunidad necesitamos recordar que la fuerza no siempre está en ganar, sino en confiar.",
+          "Las bienaventuranzas se unen a todo lo demás para decirnos que hay otra forma de vivir, más suave y más real."
+        ],
+        "mensaje_central": "Cuando elegimos la humildad y la misericordia, aunque cueste, ahí Dios ya está caminando con nosotros.",
+        "agradecimiento": [
+          "el trabajo que nos sostiene aunque canse",
+          "la familia o las personas que no nos sueltan",
+          "los silencios donde podemos respirar"
+        ],
+        "cierre": "Sigamos el día con eso en el corazón, paso a paso, sin apurarnos.",
+        "text": "Hoy es domingo y la comunidad se reúne con más calma, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para compartir la fe juntos. Este IV Domingo Ordinario nos encuentra tal vez cansados de la semana, pero con ganas de escuchar algo que nos sostenga. Las lecturas de hoy acompañan ese momento donde necesitamos volver a lo simple y a lo verdadero.\n\nEn todas las lecturas aparece la misma idea: Dios se queda cerca de lo pequeño, lo humilde y lo que el mundo no aplaude. Escuchamos más lecturas hoy porque como comunidad necesitamos recordar que la fuerza no siempre está en ganar, sino en confiar. Las bienaventuranzas se unen a todo lo demás para decirnos que hay otra forma de vivir, más suave y más real.\n\nCuando elegimos la humildad y la misericordia, aunque cueste, ahí Dios ya está caminando con nosotros.\n\nGracias por: el trabajo que nos sostiene aunque canse, la familia o las personas que no nos sueltan, los silencios donde podemos respirar.\n\nSigamos el día con eso en el corazón, paso a paso, sin apurarnos."
+      }
     },
     {
       "date": "2026-02-02",
       "title": "Presentación del Señor (Fiesta)",
       "liturgical_type": "Blanco",
       "hinry": {
-  "contexto": [
-    "Hoy es una memoria libre y aun así la comunidad se toma el tiempo, por eso escuchamos seis lecturas y el salmo, porque es un día grande para caminar juntos.",
-    "Entre semana, con trabajo y cansancio encima, llegamos con historias mezcladas de dolor y esperanza.",
-    "Lo que escuchamos hoy acompaña justo esos momentos donde la vida aprieta."
-  ],
-  "explicacion": [
-    "Las lecturas hablan de pérdidas que duelen, de súplicas que nacen del fondo y de una fe que se abre paso en medio del caos.",
-    "Escuchamos más lecturas hoy porque necesitamos recordar que, aun cuando todo parece roto, la esperanza no se apaga.",
-    "Entre lágrimas, toques tímidos y manos que levantan, aparece una vida que vuelve a ponerse de pie."
-  ],
-  "mensaje_central": "Incluso cuando sentimos que ya no hay salida, la vida todavía puede sorprendernos con algo nuevo.",
-  "agradecimiento": [
-    "la gente que no se va cuando duele",
-    "la fuerza para seguir un día más",
-    "las pequeñas señales de alivio"
-  ],
-  "cierre": "Sigamos caminando hoy así, acompañados, sin cargarlo todo solos."
-}
+        "contexto": [
+          "Hoy es una fiesta y la comunidad se detiene un poco más, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para caminar juntos.",
+          "Celebramos este día recordando una escena sencilla, casi familiar, donde lo importante pasa en silencio.",
+          "Muchos llegamos hoy con cansancio o preguntas, y este momento nos regala calma."
+        ],
+        "explicacion": [
+          "Todas las lecturas se cruzan en lo mismo: Dios se deja encontrar en lo humano, en brazos abiertos, en la espera paciente.",
+          "Escuchamos más lecturas hoy porque necesitamos volver a lo esencial, a esa luz que no grita pero permanece.",
+          "Simeón y Ana, junto con todo lo demás que oímos, nos muestran que la esperanza no corre, sabe esperar."
+        ],
+        "mensaje_central": "Cuando sostenemos la vida con confianza, incluso en lo pequeño, la paz empieza a acomodarse por dentro.",
+        "agradecimiento": [
+          "las personas que esperan con nosotros",
+          "los días simples que sostienen la fe",
+          "la luz que aparece sin hacer ruido"
+        ],
+        "cierre": "Sigamos así el día, despacio, como quien no está solo.",
+        "text": "Hoy es una fiesta y la comunidad se detiene un poco más, por eso escuchamos cuatro lecturas y el salmo, porque es un día grande para caminar juntos. Celebramos este día recordando una escena sencilla, casi familiar, donde lo importante pasa en silencio. Muchos llegamos hoy con cansancio o preguntas, y este momento nos regala calma.\n\nTodas las lecturas se cruzan en lo mismo: Dios se deja encontrar en lo humano, en brazos abiertos, en la espera paciente. Escuchamos más lecturas hoy porque necesitamos volver a lo esencial, a esa luz que no grita pero permanece. Simeón y Ana, junto con todo lo demás que oímos, nos muestran que la esperanza no corre, sabe esperar.\n\nCuando sostenemos la vida con confianza, incluso en lo pequeño, la paz empieza a acomodarse por dentro.\n\nGracias por: las personas que esperan con nosotros, los días simples que sostienen la fe, la luz que aparece sin hacer ruido.\n\nSigamos así el día, despacio, como quien no está solo."
+      }
     },
     {
       "date": "2026-02-03",
       "title": "San Blas, Obispo y Mártir (Memoria Libre)",
       "liturgical_type": "Rojo",
       "hinry": {
-  "contexto": [
-    "Hoy es una memoria libre y, aun siendo entre semana, la comunidad escucha seis lecturas y el salmo, porque es un día grande para sostenernos juntos.",
-    "Llegamos con trabajo encima, cansancio acumulado y algunas preocupaciones que no se van fácil.",
-    "Lo que se lee hoy se acerca justo a esos días donde la vida se mezcla entre dolor y esperanza."
-  ],
-  "explicacion": [
-    "Las lecturas se tocan en una misma experiencia: hay pérdidas que quiebran, súplicas que nacen del fondo y una confianza que se abre paso despacio.",
-    "Escuchamos más lecturas hoy porque necesitamos recordar que la esperanza no desaparece cuando todo se complica.",
-    "Entre llanto, espera y gestos pequeños, la vida vuelve a levantarse."
-  ],
-  "mensaje_central": "Aun cuando todo parece perdido, la esperanza sigue respirando con nosotros.",
-  "agradecimiento": [
-    "quienes se quedan cuando duele",
-    "la paciencia que se va formando",
-    "los gestos simples que sostienen"
-  ],
-  "cierre": "Sigamos el día así, acompañados, sin tener que ser fuertes todo el tiempo."
-}
-
+        "contexto": [
+          "Hoy es una memoria libre y, aun siendo entre semana, la comunidad escucha seis lecturas y el salmo, porque es un día grande para sostenernos juntos.",
+          "Llegamos con trabajo encima, cansancio acumulado y algunas preocupaciones que no se van fácil.",
+          "Lo que se lee hoy se acerca justo a esos días donde la vida se mezcla entre dolor y esperanza."
+        ],
+        "explicacion": [
+          "Las lecturas se tocan en una misma experiencia: hay pérdidas que quiebran, súplicas que nacen del fondo y una confianza que se abre paso despacio.",
+          "Escuchamos más lecturas hoy porque necesitamos recordar que la esperanza no desaparece cuando todo se complica.",
+          "Entre llanto, espera y gestos pequeños, la vida vuelve a levantarse."
+        ],
+        "mensaje_central": "Aun cuando todo parece perdido, la esperanza sigue respirando con nosotros.",
+        "agradecimiento": [
+          "quienes se quedan cuando duele",
+          "la paciencia que se va formando",
+          "los gestos simples que sostienen"
+        ],
+        "cierre": "Sigamos el día así, acompañados, sin tener que ser fuertes todo el tiempo."
+      }
     },
     {
       "date": "2026-02-04",

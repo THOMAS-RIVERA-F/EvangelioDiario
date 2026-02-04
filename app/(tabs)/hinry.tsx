@@ -2,6 +2,9 @@ import { Animated, Image, Pressable, ScrollView, StyleSheet, View } from 'react-
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Share } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Audio } from 'expo-av';
+import ViewShot from 'react-native-view-shot';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 import { Text } from '@/components/Themed';
 import Colors from '@/constants/Colors';
@@ -29,6 +32,10 @@ const HINRY_HOY = require('@/assets/mascot/hinry-hoy.png');
 const HINRY_AYER = require('@/assets/mascot/hinry-ayer.png');
 const CARD_BACK_HOY = require('@/assets/photos/carta-atras-hoy.png');
 const CARD_BACK_AYER = require('@/assets/photos/carta-atras-ayer.png');
+const AUDIO_HINRY: Record<string, number> = {
+  '2026-02-03': require('@/assets/audio/hinry_2026-02-03.mp3'),
+};
+const WAVE_BARS = [4, 10, 6, 14, 8, 18, 12, 7, 16, 9, 15, 6, 13, 8, 17, 10, 5, 12];
 const STORAGE_KEY = 'hinry_downloaded_days_v1';
 const hinryDays = (hinryRaw as { days: HinryDay[] }).days;
 const lecturas = lecturasRaw as LiturgicalCalendar;
@@ -59,6 +66,14 @@ export default function HinryScreen() {
   const [savedMap, setSavedMap] = useState<Record<string, boolean>>({});
   const [flippedMap, setFlippedMap] = useState<Record<string, boolean>>({});
   const flipValuesRef = useRef<Record<string, Animated.Value>>({});
+  const soundRef = useRef<Audio.Sound | null>(null);
+  const [playingDate, setPlayingDate] = useState<string | null>(null);
+  const [progressMap, setProgressMap] = useState<Record<string, number>>({});
+  const cardShotRefs = useRef<Record<string, ViewShot | null>>({});
+  const cardAnimRef = useRef<
+    Record<string, { fade: Animated.Value; lift: Animated.Value; started: boolean }>
+  >({});
+  const progressTickRef = useRef<Record<string, number>>({});
   const didInitFlipRef = useRef(false);
   const todayKey = useMemo(() => formatLocalISO(new Date()), []);
   const yesterdayKey = useMemo(() => {
@@ -84,6 +99,33 @@ export default function HinryScreen() {
   }, [fade, lift]);
 
   useEffect(() => {
+    const cards = [todayDay, yesterdayDay].filter(Boolean) as HinryDay[];
+    cards.forEach((day, index) => {
+      const anim = getCardAnim(day.date);
+      if (anim.started) return;
+      anim.started = true;
+      Animated.parallel([
+        Animated.timing(anim.fade, {
+          toValue: 1,
+          duration: 520,
+          delay: 140 + index * 140,
+          useNativeDriver: true,
+        }),
+        Animated.timing(anim.lift, {
+          toValue: 0,
+          duration: 520,
+          delay: 140 + index * 140,
+          useNativeDriver: true,
+        }),
+      ]).start();
+    });
+  }, [todayDay, yesterdayDay, getCardAnim]);
+
+  useEffect(() => {
+    Audio.setAudioModeAsync({ playsInSilentModeIOS: true });
+  }, []);
+
+  useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY).then((raw) => {
       if (!raw) return;
       try {
@@ -95,8 +137,31 @@ export default function HinryScreen() {
     });
   }, []);
 
+  useEffect(() => {
+    return () => {
+      if (soundRef.current) {
+        soundRef.current.unloadAsync();
+        soundRef.current = null;
+      }
+    };
+  }, []);
+
   const handleShare = useCallback(async (day: HinryDay) => {
     const message = buildHinryText(day);
+    const shot = cardShotRefs.current[day.date];
+    if (shot?.capture) {
+      try {
+        const uri = await shot.capture();
+        await Share.share({
+          title: 'Hoy con Hinry',
+          message,
+          url: uri,
+        });
+        return;
+      } catch {
+        // fallback to text-only share
+      }
+    }
     await Share.share({
       title: 'Hoy con Hinry',
       message,
@@ -111,11 +176,67 @@ export default function HinryScreen() {
     });
   }, []);
 
+  const handlePlay = useCallback(
+    async (day: HinryDay) => {
+      const source = AUDIO_HINRY[day.date];
+      if (!source) return;
+
+      if (playingDate === day.date && soundRef.current) {
+        await soundRef.current.stopAsync();
+        await soundRef.current.unloadAsync();
+        soundRef.current = null;
+        setPlayingDate(null);
+        setProgressMap((prev) => ({ ...prev, [day.date]: 0 }));
+        return;
+      }
+
+      if (soundRef.current) {
+        await soundRef.current.unloadAsync();
+        soundRef.current = null;
+      }
+
+      const { sound } = await Audio.Sound.createAsync(source);
+      soundRef.current = sound;
+      setPlayingDate(day.date);
+      sound.setOnPlaybackStatusUpdate((status) => {
+        if (!status.isLoaded) return;
+        if (status.durationMillis) {
+          const progress = Math.min(1, status.positionMillis / status.durationMillis);
+          const now = Date.now();
+          const last = progressTickRef.current[day.date] ?? 0;
+          if (now - last > 160) {
+            progressTickRef.current[day.date] = now;
+            setProgressMap((prev) => ({ ...prev, [day.date]: progress }));
+          }
+        }
+        if (status.didJustFinish) {
+          setPlayingDate(null);
+          setProgressMap((prev) => ({ ...prev, [day.date]: 0 }));
+          sound.unloadAsync();
+          soundRef.current = null;
+        }
+      });
+      await sound.playAsync();
+    },
+    [playingDate]
+  );
+
   const getFlipValue = useCallback((key: string) => {
     if (!flipValuesRef.current[key]) {
       flipValuesRef.current[key] = new Animated.Value(0);
     }
     return flipValuesRef.current[key];
+  }, []);
+
+  const getCardAnim = useCallback((key: string) => {
+    if (!cardAnimRef.current[key]) {
+      cardAnimRef.current[key] = {
+        fade: new Animated.Value(0),
+        lift: new Animated.Value(16),
+        started: false,
+      };
+    }
+    return cardAnimRef.current[key];
   }, []);
 
   const handleFlip = useCallback(
@@ -199,22 +320,7 @@ export default function HinryScreen() {
         <View style={styles.cardsColumn}>
           {[todayDay, yesterdayDay].map((day, index) => {
             if (!day) return null;
-            const cardFade = new Animated.Value(0);
-            const cardLift = new Animated.Value(16);
-            Animated.parallel([
-              Animated.timing(cardFade, {
-                toValue: 1,
-                duration: 520,
-                delay: 140 + index * 140,
-                useNativeDriver: true,
-              }),
-              Animated.timing(cardLift, {
-                toValue: 0,
-                duration: 520,
-                delay: 140 + index * 140,
-                useNativeDriver: true,
-              }),
-            ]).start();
+            const cardAnim = getCardAnim(day.date);
 
             const isSaved = !!savedMap[day.date];
             const hinryText = buildHinryText(day);
@@ -223,6 +329,9 @@ export default function HinryScreen() {
             const mascot = isToday ? HINRY_HOY : HINRY_AYER;
             const cardBack = isToday ? CARD_BACK_HOY : CARD_BACK_AYER;
             const liturgicalTitle = titleMap[day.date] ?? day.title ?? label;
+            const hasAudio = !!AUDIO_HINRY[day.date];
+            const isPlaying = playingDate === day.date;
+            const progress = progressMap[day.date] ?? 0;
             const isFlipped = !!flippedMap[day.date];
             const rotate = getFlipValue(day.date);
             const frontRotate = rotate.interpolate({
@@ -237,7 +346,7 @@ export default function HinryScreen() {
             return (
               <Animated.View
                 key={day.date}
-                style={{ opacity: cardFade, transform: [{ translateY: cardLift }] }}>
+                style={{ opacity: cardAnim.fade, transform: [{ translateY: cardAnim.lift }] }}>
                 <View style={styles.cardShell}>
                   <View style={styles.cardGlow} />
                   <View style={styles.cardFlipStage}>
@@ -247,63 +356,118 @@ export default function HinryScreen() {
                         styles.cardFace,
                         { transform: [{ perspective: 900 }, { rotateY: frontRotate }] },
                       ]}>
-                      <View
-                        style={[
-                          styles.card,
-                          { backgroundColor: themed.surface },
-                        ]}>
-                        <View style={styles.cardTop}>
-                          <View style={styles.cardTopText}>
-                            <Text style={styles.cardDate}>{day.date}</Text>
-                            <Text style={styles.cardLabel}>{liturgicalTitle}</Text>
-                            <Text style={[styles.cardTag, { color: themed.muted }]}>{label}</Text>
+                      <ViewShot
+                        ref={(ref) => {
+                          cardShotRefs.current[day.date] = ref;
+                        }}
+                        options={{ format: 'png', quality: 0.95 }}
+                        collapsable={false}
+                        style={styles.cardShot}>
+                        <View
+                          style={[
+                            styles.card,
+                            { backgroundColor: themed.surface },
+                          ]}>
+                          <View style={styles.cardTop}>
+                            <View style={styles.cardTopText}>
+                              <Text style={styles.cardDate}>{day.date}</Text>
+                              <Text style={styles.cardLabel}>{liturgicalTitle}</Text>
+                              <Text style={[styles.cardTag, { color: themed.muted }]}>{label}</Text>
+                            </View>
+                            <Image
+                              source={mascot}
+                              style={styles.cardMascot}
+                              resizeMode="contain"
+                            />
                           </View>
-                          <Image
-                            source={mascot}
-                            style={styles.cardMascot}
-                            resizeMode="contain"
-                          />
-                        </View>
 
-                        <Text style={[styles.cardText, { color: themed.text }]}>{hinryText}</Text>
+                          <Text style={[styles.cardText, { color: themed.text }]}>{hinryText}</Text>
 
-                        <View style={styles.cardActions}>
                           <Pressable
-                            onPress={() => handleFlip(day)}
+                            onPress={() => handlePlay(day)}
+                            disabled={!hasAudio}
                             style={({ pressed }) => [
-                              styles.flipButton,
+                              styles.audioShell,
                               {
-                                borderColor: themed.tint,
-                                opacity: pressed ? 0.7 : 1,
+                                backgroundColor: hasAudio
+                                  ? 'rgba(0, 0, 0, 0.12)'
+                                  : 'rgba(0, 0, 0, 0.06)',
+                                opacity: pressed ? 0.85 : 1,
                               },
                             ]}>
-                            <Text style={[styles.flipButtonText, { color: themed.tint }]}>
-                              Girar
+                            <View
+                              style={[
+                                styles.audioButton,
+                                { backgroundColor: themed.tint },
+                              ]}>
+                              <FontAwesome
+                                name={isPlaying ? 'pause' : 'play'}
+                                size={12}
+                                color="#FFFFFF"
+                              />
+                            </View>
+                            <View style={styles.audioWave}>
+                              {WAVE_BARS.map((height, barIndex) => {
+                                const active = barIndex / WAVE_BARS.length <= progress;
+                                return (
+                                  <View
+                                    key={`bar-${barIndex}`}
+                                    style={[
+                                      styles.audioBar,
+                                      {
+                                        height,
+                                        backgroundColor: active
+                                          ? themed.tint
+                                          : 'rgba(0,0,0,0.25)',
+                                      },
+                                    ]}
+                                  />
+                                );
+                              })}
+                            </View>
+                            <Text style={[styles.audioLabel, { color: themed.muted }]}>
+                              {hasAudio ? (isPlaying ? 'Reproduciendo' : 'Escuchar audio') : 'Audio no disponible'}
                             </Text>
                           </Pressable>
-                          <Pressable
-                            onPress={() => handleShare(day)}
-                            style={({ pressed }) => [
-                              styles.actionButton,
-                              { backgroundColor: themed.tint, opacity: pressed ? 0.85 : 1 },
-                            ]}>
-                            <Text style={styles.actionText}>Compartir</Text>
-                          </Pressable>
-                          <Pressable
-                            onPress={() => handleSave(day)}
-                            style={({ pressed }) => [
-                              styles.actionGhost,
-                              {
-                                borderColor: themed.tint,
-                                opacity: pressed ? 0.7 : 1,
-                              },
-                            ]}>
-                            <Text style={[styles.actionGhostText, { color: themed.tint }]}>
-                              {isSaved ? 'Guardado' : 'Descargar'}
-                            </Text>
-                          </Pressable>
+
+                          <View style={styles.cardActions}>
+                            <Pressable
+                              onPress={() => handleFlip(day)}
+                              style={({ pressed }) => [
+                                styles.flipButton,
+                                {
+                                  borderColor: themed.tint,
+                                  opacity: pressed ? 0.7 : 1,
+                                },
+                              ]}>
+                              <Text style={[styles.flipButtonText, { color: themed.tint }]}>
+                                Girar
+                              </Text>
+                            </Pressable>
+                            <Pressable
+                              onPress={() => handleShare(day)}
+                              style={({ pressed }) => [
+                                styles.actionButton,
+                                { backgroundColor: themed.tint, opacity: pressed ? 0.85 : 1 },
+                              ]}>
+                              <Text style={styles.actionText}>Compartir</Text>
+                            </Pressable>
+                            <Pressable
+                              onPress={() => handleSave(day)}
+                              style={({ pressed }) => [
+                                styles.actionGhost,
+                                {
+                                  borderColor: themed.tint,
+                                  opacity: pressed ? 0.7 : 1,
+                                },
+                              ]}>
+                              <Text style={[styles.actionGhostText, { color: themed.tint }]}>
+                                {isSaved ? 'Guardado' : 'Descargar'}
+                              </Text>
+                            </Pressable>
+                          </View>
                         </View>
-                      </View>
+                      </ViewShot>
                     </Animated.View>
                     <Animated.View
                       pointerEvents={isFlipped ? 'auto' : 'none'}
@@ -444,6 +608,38 @@ const styles = StyleSheet.create({
     fontFamily: 'Lora_400Regular',
     fontSize: 16,
     lineHeight: 24,
+  },
+  cardShot: {
+    borderRadius: Radius.xl,
+  },
+  audioShell: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.sm,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+    borderRadius: 999,
+  },
+  audioButton: {
+    width: 28,
+    height: 28,
+    borderRadius: 14,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  audioWave: {
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    gap: 4,
+    flex: 1,
+  },
+  audioBar: {
+    width: 4,
+    borderRadius: 999,
+  },
+  audioLabel: {
+    fontFamily: 'SourceSans3_600SemiBold',
+    fontSize: TypeScale.caption,
   },
   cardFlipStage: {
     position: 'relative',

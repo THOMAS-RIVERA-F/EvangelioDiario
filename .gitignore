@@ -45,3 +45,8 @@ data/lecturas_*.json
 # generated native folders
 /ios
 /android
+
+# python/preview artifacts
+.venv/
+.venv_wsl/
+audio_preview/
