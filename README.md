@@ -2,13 +2,9 @@
 
 Aplicación móvil (Expo + React Native) para seguir el Evangelio diario y acompañarlo con la voz de Hinry. El MVP está diseñado para lectura rápida, favoritos y un calendario litúrgico claro.
 
-**Pantallazos**
+**Estado visual del README**
 
-![Inicio - Lecturas del día](docs/screenshots/home.png)
-
-![Pantalla de lectura](docs/screenshots/reading.png)
-
-![Calendario litúrgico](docs/screenshots/calendar.png)
+- No se incluyen capturas en este README para evitar mostrar imágenes que puedan no reflejar exactamente el estado actual de la app.
 
 **Funcionalidades clave**
 
@@ -46,7 +42,7 @@ Aplicación móvil (Expo + React Native) para seguir el Evangelio diario y acomp
 
 **Scripts de datos**
 
-- `scripts/generate_hinry_master.mjs`: genera plantilla base de Hinry a partir del calendario.
+- `scripts/generate_hinry_master.mjs`: genera el archivo completo de Hinry por día, con citas del Evangelio diario y mensaje pastoral.
 - `scripts/generate_hinry_prompts.mjs`: genera prompts de Hinry.
 - `scripts/generate_audio_preview.py`: preview de audio.
 

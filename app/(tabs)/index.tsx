@@ -16,6 +16,7 @@ import { Text } from '@/components/Themed';
 import Colors from '@/constants/Colors';
 import { LineHeight, Radius, Spacing, TypeScale } from '@/constants/Design';
 import { useColorScheme } from '@/components/useColorScheme';
+import { useThemePreference } from '@/components/ThemeContext';
 import lecturasRaw from '@/data/lecturas_2026.json';
 
 type LecturasData = {
@@ -60,9 +61,18 @@ function formatLocalISO(date: Date) {
   return `${year}-${month}-${day}`;
 }
 
+const THEME_CYCLE = ['system', 'light', 'dark'] as const;
+const THEME_ICON: Record<string, string> = { system: 'adjust', light: 'sun-o', dark: 'moon-o' };
+
 export default function TabOneScreen() {
   const colorScheme = useColorScheme() ?? 'light';
+  const { preference, setPreference } = useThemePreference();
   const { width } = useWindowDimensions();
+
+  const cycleTheme = () => {
+    const idx = THEME_CYCLE.indexOf(preference);
+    setPreference(THEME_CYCLE[(idx + 1) % THEME_CYCLE.length]);
+  };
   const cardWidth = Math.min(width * 0.72, 320);
   const cardHeight = Math.round(cardWidth * 1.25);
 
@@ -117,6 +127,22 @@ export default function TabOneScreen() {
             </Text>
           </View>
           <View style={styles.headerActions}>
+            <Pressable
+              onPress={cycleTheme}
+              style={({ pressed }) => [
+                styles.iconButton,
+                {
+                  backgroundColor: Colors[colorScheme].surface,
+                  borderColor: Colors[colorScheme].border,
+                },
+                pressed && { opacity: 0.7 },
+              ]}>
+              <FontAwesome
+                name={THEME_ICON[preference] as any}
+                size={16}
+                color={Colors[colorScheme].text}
+              />
+            </Pressable>
             <Link href="/(tabs)/two" asChild>
               <Pressable
                 style={({ pressed }) => [
@@ -242,6 +268,8 @@ const styles = StyleSheet.create({
   headerActions: {
     flexDirection: 'row',
     gap: Spacing.sm,
+    alignItems: 'center',
+    marginLeft: 'auto',
   },
   iconButton: {
     width: 34,

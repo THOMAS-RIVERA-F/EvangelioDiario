@@ -3,9 +3,11 @@ import {
   FlatList,
   Image,
   ImageBackground,
+  Modal,
   Pressable,
   ScrollView,
   StyleSheet,
+  TextInput,
   View,
   useWindowDimensions,
 } from 'react-native';
@@ -21,7 +23,15 @@ import { useColorScheme } from '@/components/useColorScheme';
 import lecturasRaw from '@/data/lecturas_2026.json';
 import type { LiturgicalCalendar, Reading } from '@/types/liturgia';
 import { useThemePreference } from '@/components/ThemeContext';
-import { getFavorites, toggleFavorite, toFavoriteMap, type FavoriteItem } from '@/lib/favorites';
+import {
+  createPlaylist,
+  getFavoritesState,
+  removeFavoriteByContentId,
+  saveFavoriteToPlaylist,
+  toFavoriteMap,
+  type FavoriteDraft,
+  type FavoritePlaylist,
+} from '@/lib/favorites';
 
 const lecturas = lecturasRaw as LiturgicalCalendar;
 const HERO_IMAGES = [
@@ -39,18 +49,29 @@ function formatLocalISO(date: Date) {
 
 export default function ReadingScreen() {
   const router = useRouter();
-  const params = useLocalSearchParams<{ index?: string }>();
+  const params = useLocalSearchParams<{ index?: string; date?: string; reference?: string; verse?: string }>();
   const colorScheme = useColorScheme() ?? 'light';
   const { preference, setPreference } = useThemePreference();
   const todayKey = formatLocalISO(new Date());
-  const today = lecturas.days.find((day) => day.date === todayKey) ?? lecturas.days[0];
+  const currentDate = params.date && params.date.length === 10 ? params.date : todayKey;
+  const today = lecturas.days.find((day) => day.date === currentDate) ?? lecturas.days.find((day) => day.date === todayKey) ?? lecturas.days[0];
   const readings = useMemo(
     () => today.reading_sets.flatMap((set) => set.readings),
     [today]
   );
 
   const maxIndex = Math.max(0, readings.length - 1);
-  const initialIndex = Math.min(maxIndex, Math.max(0, Number(params.index ?? 0) || 0));
+  const initialIndex = useMemo(() => {
+    const byReference = params.reference
+      ? readings.findIndex((reading) => {
+          const a = String(reading.reference || '').toLowerCase().trim();
+          const b = String(params.reference || '').toLowerCase().trim();
+          return a === b || a.includes(b) || b.includes(a);
+        })
+      : -1;
+    if (byReference >= 0) return byReference;
+    return Math.min(maxIndex, Math.max(0, Number(params.index ?? 0) || 0));
+  }, [maxIndex, params.index, params.reference, readings]);
   const listRef = useRef<FlatList<Reading>>(null);
   const [fontSize, setFontSize] = useState(18);
   const lineHeight = useMemo(() => Math.round(fontSize * 1.72), [fontSize]);
@@ -64,10 +85,15 @@ export default function ReadingScreen() {
   const verseHighlight =
     colorScheme === 'dark' ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.03)';
   const [favoriteMap, setFavoriteMap] = useState<Record<string, boolean>>({});
+  const [playlists, setPlaylists] = useState<FavoritePlaylist[]>([]);
+  const [pickerVisible, setPickerVisible] = useState(false);
+  const [pendingFavorite, setPendingFavorite] = useState<FavoriteDraft | null>(null);
+  const [newPlaylistName, setNewPlaylistName] = useState('');
 
   const loadFavorites = useCallback(() => {
-    getFavorites().then((items) => {
-      setFavoriteMap(toFavoriteMap(items));
+    getFavoritesState().then((state) => {
+      setFavoriteMap(toFavoriteMap(state.items));
+      setPlaylists(state.playlists);
     });
   }, []);
 
@@ -93,10 +119,66 @@ export default function ReadingScreen() {
     return () => clearTimeout(handle);
   }, [initialIndex]);
 
-  const handleToggle = useCallback(async (item: FavoriteItem) => {
-    const next = await toggleFavorite(item);
-    setFavoriteMap(toFavoriteMap(next));
+  useEffect(() => {
+    setActiveIndex(initialIndex);
+    setSelectedVerseId(null);
+    if (!listRef.current) return;
+    const handle = setTimeout(() => {
+      listRef.current?.scrollToIndex({ index: initialIndex, animated: false });
+    }, 30);
+    return () => clearTimeout(handle);
+  }, [initialIndex, today.date]);
+
+  useEffect(() => {
+    if (!params.verse) return;
+    const reading = readings[activeIndex];
+    if (!reading) return;
+
+    const verseIndex = reading.verses.findIndex(
+      (verse, idx) => String(verse.number ?? idx) === String(params.verse),
+    );
+    if (verseIndex < 0) return;
+
+    const verse = reading.verses[verseIndex];
+    const readingId = `${today.date}-${reading.type}-${reading.reference}`;
+    const verseId = `${readingId}-v-${verse.number ?? verseIndex}`;
+    setSelectedVerseId(verseId);
+  }, [activeIndex, params.verse, readings, today.date]);
+
+  const closePlaylistPicker = useCallback(() => {
+    setPickerVisible(false);
+    setPendingFavorite(null);
+    setNewPlaylistName('');
   }, []);
+
+  const handleSaveInPlaylist = useCallback(
+    async (playlistId: string) => {
+      if (!pendingFavorite) return;
+      const next = await saveFavoriteToPlaylist(pendingFavorite, playlistId);
+      setFavoriteMap(toFavoriteMap(next));
+      closePlaylistPicker();
+    },
+    [closePlaylistPicker, pendingFavorite],
+  );
+
+  const handleCreatePlaylist = useCallback(async () => {
+    const state = await createPlaylist(newPlaylistName);
+    setPlaylists(state.playlists);
+    setNewPlaylistName('');
+  }, [newPlaylistName]);
+
+  const handleToggle = useCallback(async (item: FavoriteDraft) => {
+    const exists = !!favoriteMap[item.content_id];
+
+    if (exists) {
+      const next = await removeFavoriteByContentId(item.content_id);
+      setFavoriteMap(toFavoriteMap(next));
+      return;
+    }
+
+    setPendingFavorite(item);
+    setPickerVisible(true);
+  }, [favoriteMap]);
 
   return (
     <View style={[styles.container, { backgroundColor: Colors[colorScheme].background }]}>
@@ -252,15 +334,17 @@ export default function ReadingScreen() {
               (index + 1) * width,
             ];
             const readingId = `${today.date}-${item.type}-${item.reference}`;
-            const readingFavorite: FavoriteItem = {
-              id: readingId,
+            const fullReadingText = item.verses
+              .map((verse) => `${verse.number ? `${verse.number} ` : ''}${verse.text}`.trim())
+              .join('\n');
+            const readingFavorite: FavoriteDraft = {
+              content_id: readingId,
               kind: 'reading',
               date: today.date,
               date_display: today.date_display,
               reading_type: item.type,
               reference: item.reference,
-              text: item.verses[0]?.text,
-              created_at: new Date().toISOString(),
+              text: fullReadingText,
             };
             const isReadingFavorited = !!favoriteMap[readingId];
             const favoriteIconColor = isReadingFavorited
@@ -317,8 +401,8 @@ export default function ReadingScreen() {
                     style={[styles.readingBox, { backgroundColor: Colors[colorScheme].surface }]}>
                     {item.verses.map((verse, verseIndex) => {
                       const verseId = `${readingId}-v-${verse.number ?? verseIndex}`;
-                      const verseFavorite: FavoriteItem = {
-                        id: verseId,
+                      const verseFavorite: FavoriteDraft = {
+                        content_id: verseId,
                         kind: 'verse',
                         date: today.date,
                         date_display: today.date_display,
@@ -326,7 +410,6 @@ export default function ReadingScreen() {
                         reference: item.reference,
                         verse_number: verse.number,
                         text: verse.text,
-                        created_at: new Date().toISOString(),
                       };
                       const isVerseFavorited = !!favoriteMap[verseId];
                       const isSelected = selectedVerseId === verseId;
@@ -380,6 +463,81 @@ export default function ReadingScreen() {
           }}
         />
       </Animated.View>
+
+      <Modal
+        visible={pickerVisible}
+        transparent
+        animationType="fade"
+        onRequestClose={closePlaylistPicker}>
+        <View style={styles.modalBackdrop}>
+          <View
+            style={[
+              styles.modalCard,
+              {
+                backgroundColor: Colors[colorScheme].surface,
+                borderColor: Colors[colorScheme].border,
+              },
+            ]}>
+            <Text style={styles.modalTitle}>Guardar en playlist</Text>
+            <Text style={[styles.modalSubtitle, { color: Colors[colorScheme].muted }]}>
+              Elige una colección para esta frase.
+            </Text>
+
+            <View style={styles.modalList}>
+              {playlists.map((playlist) => (
+                <Pressable
+                  key={playlist.id}
+                  onPress={() => handleSaveInPlaylist(playlist.id)}
+                  style={({ pressed }) => [
+                    styles.modalPlaylist,
+                    {
+                      backgroundColor: Colors[colorScheme].background,
+                      borderColor: Colors[colorScheme].border,
+                      opacity: pressed ? 0.75 : 1,
+                    },
+                  ]}>
+                  <Text style={styles.modalPlaylistText}>{playlist.name}</Text>
+                </Pressable>
+              ))}
+            </View>
+
+            <View style={styles.modalCreateRow}>
+              <TextInput
+                value={newPlaylistName}
+                onChangeText={setNewPlaylistName}
+                placeholder="Nueva playlist"
+                placeholderTextColor={Colors[colorScheme].muted}
+                style={[
+                  styles.modalInput,
+                  {
+                    color: Colors[colorScheme].text,
+                    backgroundColor: Colors[colorScheme].background,
+                    borderColor: Colors[colorScheme].border,
+                  },
+                ]}
+              />
+              <Pressable
+                onPress={handleCreatePlaylist}
+                style={({ pressed }) => [
+                  styles.modalAdd,
+                  {
+                    backgroundColor: Colors[colorScheme].tint,
+                    opacity: pressed ? 0.75 : 1,
+                  },
+                ]}>
+                <Text style={styles.modalAddText}>Crear</Text>
+              </Pressable>
+            </View>
+
+            <Pressable
+              onPress={closePlaylistPicker}
+              style={({ pressed }) => [{ opacity: pressed ? 0.7 : 1 }]}
+            >
+              <Text style={[styles.modalCancel, { color: Colors[colorScheme].muted }]}>Cancelar</Text>
+            </Pressable>
+          </View>
+        </View>
+      </Modal>
     </View>
   );
 }
@@ -543,5 +701,70 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     opacity: 0.92,
+  },
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.35)',
+    justifyContent: 'center',
+    paddingHorizontal: Spacing.lg,
+  },
+  modalCard: {
+    borderRadius: Radius.lg,
+    borderWidth: 1,
+    padding: Spacing.lg,
+    gap: Spacing.sm,
+  },
+  modalTitle: {
+    fontFamily: 'Lora_600SemiBold',
+    fontSize: TypeScale.bodyLarge,
+  },
+  modalSubtitle: {
+    fontFamily: 'SourceSans3_400Regular',
+    fontSize: TypeScale.caption,
+  },
+  modalList: {
+    gap: Spacing.xs,
+    marginTop: Spacing.xs,
+  },
+  modalPlaylist: {
+    borderRadius: Radius.md,
+    borderWidth: 1,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+  },
+  modalPlaylistText: {
+    fontFamily: 'SourceSans3_600SemiBold',
+    fontSize: TypeScale.body,
+  },
+  modalCreateRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.xs,
+    marginTop: Spacing.xs,
+  },
+  modalInput: {
+    flex: 1,
+    borderWidth: 1,
+    borderRadius: Radius.md,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+    fontFamily: 'SourceSans3_400Regular',
+    fontSize: TypeScale.body,
+  },
+  modalAdd: {
+    borderRadius: Radius.md,
+    paddingHorizontal: Spacing.md,
+    paddingVertical: Spacing.sm,
+  },
+  modalAddText: {
+    fontFamily: 'SourceSans3_600SemiBold',
+    fontSize: TypeScale.body,
+    color: '#FFFFFF',
+  },
+  modalCancel: {
+    fontFamily: 'SourceSans3_600SemiBold',
+    fontSize: TypeScale.body,
+    alignSelf: 'flex-end',
+    marginTop: Spacing.sm,
   },
 });
